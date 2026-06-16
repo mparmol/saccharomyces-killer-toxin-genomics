@@ -12,8 +12,7 @@
 
 This repository contains the analysis scripts used to detect, characterise, and phylogenetically analyse two killer-toxin loci, **KHS1** (NUPAV/YSC0044) and **KHR1** (YSC0002), across 83 assembled nuclear genomes of the genus *Saccharomyces*.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-*(DOI will be populated after Zenodo release)*
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20718181.svg)](https://doi.org/10.5281/zenodo.20718181)
 
 ---
 

@@ -1,0 +1,35 @@
+{
+  "_comment": "Style config for network figures v2. Loaded by 17_networks_v2.py draw_outline_styled(). Font sizes are in matplotlib points — on a 20x20 inch figure, 150pt ≈ 10% of figure height.",
+  "figure": {
+    "figsize": [20, 20]
+  },
+  "edges": {
+    "color": "#111111",
+    "linewidth": 2.5
+  },
+  "markers": {
+    "size_blast": 250,
+    "size_nhmmer": 300,
+    "edge_color_nhmmer": "#cc0000",
+    "linewidth_blast": 0.4,
+    "linewidth_nhmmer": 1.0
+  },
+  "labels": {
+    "fontsize": 17.5,
+    "color_nhmmer": "#cc0000",
+    "offset_fraction": 0.025
+  },
+  "title": {
+    "fontsize": 150,
+    "fontweight": "bold"
+  },
+  "legend": {
+    "fontsize": 26,
+    "title_fontsize": 26,
+    "ncol": 2
+  },
+  "method_text": {
+    "show": false
+  },
+  "highlights": {}
+}

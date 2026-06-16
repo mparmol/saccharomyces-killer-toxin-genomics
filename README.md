@@ -1,6 +1,14 @@
 # KHS1 and KHR1 killer toxin genes in 83 *Saccharomyces* genomes — Analysis pipeline
 
-**Pármol M, Peris F, Peris D** (manuscript in preparation)
+**Parras-Moltó M<sup>1,2</sup>, García-Ríos E<sup>3,2</sup>, Peris D<sup>4</sup>** (manuscript in preparation)
+
+<sup>1</sup> Leitat Technological Center, Applied Microbiology and Biotechnologies, Barcelona, Spain  
+<sup>2</sup> National Center for Microbiology, Instituto de Salud Carlos III, Majadahonda, Madrid, Spain  
+<sup>3</sup> Instituto de Ciencias de la Vid y del Vino (CSIC, Universidad de La Rioja, Gobierno de La Rioja), Logroño 26007, Spain  
+<sup>4</sup> Department of Food Biotechnology, Institute of Agrochemistry and Food Technology (IATA), CSIC, Valencia, Spain
+
+**Correspondence:** Estéfani García-Ríos ([egarcia@icvv.es](mailto:egarcia@icvv.es)) · Marcos Parras-Moltó ([mparmol@gmail.com](mailto:mparmol@gmail.com))  
+**ORCIDs:** Parras-Moltó [0000-0003-0529-627X](https://orcid.org/0000-0003-0529-627X) · García-Ríos [0000-0001-9028-055X](https://orcid.org/0000-0001-9028-055X) · Peris [0000-0001-9912-8802](https://orcid.org/0000-0001-9912-8802)
 
 This repository contains the analysis scripts used to detect, characterise, and phylogenetically analyse two killer-toxin loci, **KHS1** (NUPAV/YSC0044) and **KHR1** (YSC0002), across 83 assembled nuclear genomes of the genus *Saccharomyces*.
 
@@ -92,16 +100,16 @@ Scripts should be run in order. Scripts 01–10 run on Windows (Python) or WSL2 
 ## Output structure
 
 ```
-resultados/
+results/
 ├── 01_metadata/            genome metadata TSV
-├── 02_deteccion_blast/     BLAST hits, presence/absence, sequences
-├── 03_alineamientos/       MAFFT + trimAl alignments
-├── 04_arboles/             IQ-TREE outputs (gene trees)
-├── 05_figuras/             All publication figures (PDF + PNG)
+├── 02_blast_detection/     BLAST hits, presence/absence, sequences
+├── 03_alignments/          MAFFT + trimAl alignments
+├── 04_gene_trees/          IQ-TREE outputs (gene trees)
+├── 05_figures/             All publication figures (PDF + PNG)
 ├── 06_busco/               BUSCO results per strain
 ├── 07_phylogenomics/       Supermatrix + species tree
 ├── 08_discovery/           nhmmer HMM hits + novel candidates
-├── 09_comparacion_arboles/ CD-HIT clusters, BLASTp annotations, pseudogene check
+├── 09_tree_comparison/     CD-HIT clusters, BLASTp annotations, pseudogene check
 └── 10_mkiller_hmm/         M-killer HMM profile + search results
 ```
 
@@ -122,7 +130,7 @@ Gene-tree / species-tree discordance (normalised RF: KHS1 = 0.63, KHR1 = 0.70) i
 
 If you use these scripts, please cite:
 
-> Pármol M, Peris F, Peris D. KHS1 and KHR1 killer-toxin loci in 83 *Saccharomyces* genomes: distribution, chromosomal mobility, and phylogenetic discordance. *[journal, year, DOI — TBD]*
+> Parras-Moltó M, García-Ríos E, Peris D. KHS1 and KHR1 killer-toxin loci in 83 *Saccharomyces* genomes: distribution, chromosomal mobility, and phylogenetic discordance. *[journal, year, DOI — TBD]*
 
 ---
 
